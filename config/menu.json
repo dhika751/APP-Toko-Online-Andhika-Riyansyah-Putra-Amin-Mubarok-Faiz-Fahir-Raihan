@@ -1,0 +1,95 @@
+{
+    "roles": {
+        "admin": {
+            "label": "Admin",
+            "dashboard": "index.php",
+            "permissions": [
+                "all"
+            ]
+        },
+        "pelanggan": {
+            "label": "Pelanggan",
+            "dashboard": "index.php",
+            "permissions": [
+                "read_products",
+                "create_order"
+            ]
+        },
+        "supplier": {
+            "label": "Supplier",
+            "dashboard": "index.php",
+            "permissions": [
+                "read_products",
+                "manage_own_products"
+            ]
+        }
+    },
+    "modules": {
+        "buku": {
+            "label": "Buku",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "users": {
+            "label": "Pengguna",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "kategori_produk": {
+            "label": "Kategori Produk",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "supplier": {
+            "label": "Supplier",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "produk": {
+            "label": "Produk",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "pelanggan": {
+            "label": "Pelanggan",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "pesanan": {
+            "label": "Pesanan",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "pembelian": {
+            "label": "Pembelian",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "pembayaran": {
+            "label": "Pembayaran",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "stok": {
+            "label": "Stok",
+            "allowed_roles": [
+                "admin"
+            ]
+        },
+        "laporan": {
+            "label": "Laporan",
+            "allowed_roles": [
+                "admin"
+            ]
+        }
+    }
+}

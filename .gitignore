@@ -1,0 +1,16 @@
+# Composer
+vendor/
+composer.lock
+
+# Environment
+.env
+
+# Uploads and temporary files
+uploads/pembayaran/
+uploads/produk/
+*.log
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
